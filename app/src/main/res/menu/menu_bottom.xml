@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+    android:id="@+id/hom"
+    android:icon="@drawable/home"
+    android:title="Home"
+    app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/office"
+        android:icon="@drawable/office"
+        android:title="Office"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/school"
+        android:icon="@drawable/school"
+        android:title="School"
+        app:showAsAction="ifRoom" />
+
+</menu>
